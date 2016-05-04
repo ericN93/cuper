@@ -16,7 +16,7 @@ class UserSession implements \Anax\DI\IInjectionAware
    public function currentuser()
    {
          $user=$this->session->get('users', []);
-         if(isset($user[0]))
+         if(isset($user[0]) && !empty($user))
          {
             return true;
         }else{
@@ -26,8 +26,8 @@ class UserSession implements \Anax\DI\IInjectionAware
 
    public function logout()
    {
-
-        session_unset($this->session->get('users', []));
+        $this->session->set('users', []);
+        //session_unset($this->session->get('users', []));
         //echo 'in usersession';
         //var_dump( $this->session->get('users', []));
 
