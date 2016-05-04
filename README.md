@@ -38,8 +38,10 @@ HOW TO USE:
 7. Now test login_test.php file thats in your webroot folder.
 -username is admin and password is also admin
 
-
-
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ericN93/cuper/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ericN93/cuper/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/ericN93/cuper/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/ericN93/cuper/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/ericN93/cuper/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/ericN93/cuper/?branch=master)
+[![Build Status](https://travis-ci.org/ericN93/cuper.svg?branch=master)](https://travis-ci.org/ericN93/cuper)
 
 ```
  .  
